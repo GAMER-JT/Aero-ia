@@ -1,0 +1,17 @@
+.solana-qr-container {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.solana-qr-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+

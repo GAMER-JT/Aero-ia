@@ -1,0 +1,113 @@
+.side-menu {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 1000;
+}
+
+.menu-toggle {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.menu-toggle:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
+.menu-content {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 280px;
+    background-color: #202123;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    padding: 16px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    transition: all 0.3s ease;
+}
+
+.menu-content.menu-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.menu-section {
+    margin-bottom: 20px;
+}
+
+.menu-section h3 {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.theme-options {
+    display: flex;
+    gap: 10px;
+}
+
+.theme-options button {
+    flex-grow: 1;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.theme-options button.active {
+    background-color: #10A37F;
+}
+
+.token-plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.plan-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-tokens {
+    font-weight: bold;
+    color: white;
+}
+
+.plan-price {
+    color: rgba(255,255,255,0.7);
+    font-size: 0.9em;
+}
+
+.token-plan button {
+    background-color: #10A37F;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.token-plan button:hover {
+    background-color: #12c48d;
+}
+
