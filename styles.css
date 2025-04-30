@@ -398,7 +398,7 @@ body {
 }
 
 body.light-theme {
-    background-color: #f0f2f5;  
+    background-color: #202123;  
     color: #333;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
