@@ -794,7 +794,7 @@ body.light-theme .name {
 
 @media (prefers-color-scheme: light) {
     body:not(.light-theme) {
-        background-color: #f0f2f5;
+        background-color: #202123;
         color: #333;
     }
 }
